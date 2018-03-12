@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+*.swp
+build_*/
+tags
+.clang-format
+CMakeLists.txt.user
