@@ -100,7 +100,7 @@ char *file_read(char const *filename);
 
 struct cmp_str
 {
-   bool operator() (char const *a, char const *b);
+   bool operator() (char const *a, char const *b) const;
 };
 
 constexpr f32 angle_unwind(f32 value)

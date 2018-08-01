@@ -4,6 +4,7 @@
 #include "ogp_utils.h"
 #include "ogp_settings.h"
 
+#define GLM_ENABLE_EXPERIMENTAL
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtx/matrix_interpolation.hpp>
 

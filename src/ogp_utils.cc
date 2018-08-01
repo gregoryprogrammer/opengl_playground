@@ -119,7 +119,7 @@ char *file_read(char const *filename)
     return res;
 }
 
-bool cmp_str::operator()(char const *a, char const *b)
+bool cmp_str::operator()(char const *a, char const *b) const
 {
     return std::strcmp(a, b) < 0;
 }

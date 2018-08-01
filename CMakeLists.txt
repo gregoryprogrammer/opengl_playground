@@ -3,27 +3,6 @@ project(opengl_playground CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Wall \
-                                                    -Wextra \
-                                                    -Wno-switch \
-                                                    -pedantic \
-                                                    -Wno-gnu-statement-expression \
-                                                    -O0 \
-                                                    -ggdb \
-                                                    -fno-omit-frame-pointer \
-                                                    -fno-inline \
-                                                    -fdiagnostics-color=always \
-                                                    -fsanitize=address \
-                                                    ")
-
-                                                    # -fno-rtti \
-                                                    # -fno-exceptions \
-
-set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} \
-                                                        ")
-                                                        # -fno-rtti \
-                                                        # -fno-exceptions \
-
 set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH}" "${CMAKE_SOURCE_DIR}/cmake")
 
 include_directories("${CMAKE_SOURCE_DIR}/libs/")
